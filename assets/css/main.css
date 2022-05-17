@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logo {
+  padding: 14px 16px;
+  margin: none;
+  height: 0px;
+}
+
+.logo .img {
+  width: 25%;
+  padding: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+ul li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul li a:hover:not(.active) {
+  background-color: white;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+ul .active {
+  background-color: white;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.backimg {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  border: none;
+  color: #1d1b1b;
+  padding: 16px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 4px;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.button1 {
+  background-color: #1a1919;
+  color: white;
+}
+
+.button1:hover {
+  background-color: #3c3c3c;
+  color: white;
+}
+
+.shop_part {
+  position: absolute;
+  color: #2e2e2e;
+  top: 50%;
+  left: 3%;
+}
+
+.shop_part b {
+  font-size: 65px;
+  font-family: 'Prata', serif;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+
+.shop_part .shoptogether-summary {
+  margin-top: 40px;
+  font-size: 16px;
+  width: 45%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.shop_part .button1 {
+  margin-top: 40px;
+}
+
+.needs-text {
+  text-align: center;
+}
+
+.needs-text h2 {
+  margin-top: 60px;
+  margin-bottom: 35px;
+  font-size: 50px;
+  font-weight: 100;
+  color: #3c3c3c;
+}
+
+.needs-text .needs-summary {
+  color: #3c3c3c;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 45px;
+}
+
+.needs-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 60px;
+  margin-left: 54px;
+}
+
+.needs-part img {
+  width: 400px;
+  height: 440px;
+  padding: 13px;
+}
+
+.needs-part .btn {
+  background-color: #1a1919;
+  color: white;
+  width: 173px;
+  margin: auto;
+  margin-top: -24px;
+}
+
+.needs-part .btn:hover {
+  background-color: #3c3c3c;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
